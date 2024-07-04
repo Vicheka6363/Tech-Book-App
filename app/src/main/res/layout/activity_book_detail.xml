@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img" />
+
+    <TextView
+        android:id="@+id/bookTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/bookAuthorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <TextView
+        android:id="@+id/bookDescriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />\
+    <TextView
+        android:id="@+id/bookPublishedDateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/saveToFavoritesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to Favorites" />
+
+    <Button
+        android:id="@+id/downloadButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>

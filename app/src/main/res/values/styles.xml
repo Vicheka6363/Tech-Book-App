@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DefaultTextSize">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="Continue">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Complete">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Popular">
+        <item name="android:textSize">18sp</item>
+    </style>
+</resources>

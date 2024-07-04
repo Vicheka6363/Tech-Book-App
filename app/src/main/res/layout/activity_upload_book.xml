@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.UploadBookActivity">
+
+    <EditText
+        android:id="@+id/bookTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Book Title"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/bookAuthorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Author Name"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/bookDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/bookPublishedDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Published Date"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/bookCategoryEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/selectImageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Image" />
+
+    <Button
+        android:id="@+id/selectPdfButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select PDF" />
+
+    <Button
+        android:id="@+id/saveBookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Book" />
+</LinearLayout>

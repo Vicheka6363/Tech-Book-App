@@ -1,0 +1,6 @@
+<!-- rounded_gray_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#CCCCCC" /> <!-- Set background color to gray -->
+    <corners android:radius="8dp" /> <!-- Set corner radius to make it rounded -->
+</shape>

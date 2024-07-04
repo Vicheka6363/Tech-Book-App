@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteBookRequestActivity">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/delete_book_request_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Delete Book Request"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- Confirm deletion message TextView -->
+    <TextView
+        android:id="@+id/confirm_delete_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/delete_book_request_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Are you sure you want to delete this book request?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/confirm_delete_message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Delete" />
+
+</RelativeLayout>

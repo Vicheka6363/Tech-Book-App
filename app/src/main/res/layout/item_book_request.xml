@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <TextView
+        android:id="@+id/author_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view"
+        android:text="Author" />
+
+    <TextView
+        android:id="@+id/published_date_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/author_text_view"
+        android:text="Published Date" />
+
+    <TextView
+        android:id="@+id/link_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/published_date_text_view"
+        android:text="Link" />
+
+    <TextView
+        android:id="@+id/reason_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/link_text_view"
+        android:text="Reason" />
+</RelativeLayout>

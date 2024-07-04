@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_String">សួស្តី, កូឡា!</string>
+    <string name="search_Word">ស្វែងរក ...</string>
+    <string name="continue_To">បន្តទៅកាន់វគ្គសិក្សា</string>
+    <string name="mobile_Div_Course">ការអភិវឌ្ឍកម្មវិធី នៅលើទូរស័ព្ទ</string>
+    <string name="complete">៦៥% បានបញ្ចប់</string>
+    <string name="popular_Course">វគ្គសិក្សាពេញនិយម</string>
+    <string name="seeALl">មើលទាំងអស់</string>
+    <string name="software">Software</string>
+    <string name="engineering">Engineering</string>
+    <string name="content">todo</string>
+    <string name="webCloud">Web and Cloud</string>
+    <string name="technologies">Technologies</string>
+    <string name="communication">Communication an</string>
+</resources>
